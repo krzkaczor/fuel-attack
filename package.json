@@ -1,0 +1,23 @@
+{
+  "name": "fuel-hack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r eslint-register src",
+    "fork": "ganache --fork.network mainnet -d"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.31",
+    "esbuild": "^0.14.38",
+    "esbuild-register": "^3.3.2",
+    "ethers": "^5.6.4",
+    "ganache": "^7.1.0",
+    "typescript": "^4.6.4",
+    "@fuel-js/environment": "0.1.6",
+    "@fuel-js/gasprice": "^0.1.1",
+    "@fuel-js/protocol": "^0.4.6",
+    "@fuel-js/refill": "^0.1.0",
+    "@fuel-js/struct": "^0.1.6"
+  }
+}
